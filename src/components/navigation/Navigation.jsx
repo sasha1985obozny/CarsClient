@@ -4,8 +4,8 @@ import './Navigation.scss'
 const Navigation = () => {
     return(
         <nav>
-            <NavLink to = '/' >Home</NavLink>
-            <NavLink to = '/services' >Services</NavLink>
+            <NavLink to = '/CarsClient/' >Home</NavLink>
+            <NavLink to = '/CarsClient/services' >Services</NavLink>
         </nav>
     )
 }
