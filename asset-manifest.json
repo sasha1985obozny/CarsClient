@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/CarsClient/static/css/main.2223a442.css",
-    "main.js": "/CarsClient/static/js/main.fb02ad4b.js",
+    "main.js": "/CarsClient/static/js/main.5705c7d3.js",
     "static/media/bugatti-chiron.jpg": "/CarsClient/static/media/bugatti-chiron.60a45db7c3438b9a1f5b.jpg",
     "index.html": "/CarsClient/index.html",
     "main.2223a442.css.map": "/CarsClient/static/css/main.2223a442.css.map",
-    "main.fb02ad4b.js.map": "/CarsClient/static/js/main.fb02ad4b.js.map"
+    "main.5705c7d3.js.map": "/CarsClient/static/js/main.5705c7d3.js.map"
   },
   "entrypoints": [
     "static/css/main.2223a442.css",
-    "static/js/main.fb02ad4b.js"
+    "static/js/main.5705c7d3.js"
   ]
 }
