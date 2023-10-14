@@ -1,0 +1,18 @@
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 32px;
+    a{
+        padding: 5px 20px;
+        border: 2px solid transparent;
+        border-radius: 10px;
+        &:hover{
+            border: 2px solid #fff;           
+        }
+        &.active{
+            background-color: #ccc;
+            border: 2px solid #fff;
+        }
+    }
+}

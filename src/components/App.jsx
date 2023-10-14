@@ -1,16 +1,16 @@
-export const App = () => {
+import { Routes, Route } from 'react-router-dom'
+import Home from './pages/Home/Home';
+import Services from './pages/Services/Services';
+
+function App() {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      CarsClient
-    </div>
+      <div>
+        <Routes>
+          <Route path = '/' element = { <Home /> } />
+          <Route path = '/services' element = { <Services /> } />
+        </Routes>
+      </div>
   );
-};
+}
+
+export default App;
