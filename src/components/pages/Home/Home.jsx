@@ -15,6 +15,9 @@ const Home = () => {
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores optio vero expedita facere tempore tenetur deserunt culpa voluptatum nobis sequi aspernatur pariatur cum aperiam aliquam veritatis, rem amet, mollitia autem.
             </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores optio vero expedita facere tempore tenetur deserunt culpa voluptatum nobis sequi aspernatur pariatur cum aperiam aliquam veritatis, rem amet, mollitia autem.
+            </p>
         </>
     )
 }
