@@ -7,6 +7,8 @@ const Auth = () => {
     const [password, setPassword] = useState('');
     const [isLogin, setIsLogin] = useState(false);
 
+    console.log(email, password);
+
     return <div className="auth-page">
         <Navigation />
         <h1 className="auth-header">

@@ -11,7 +11,7 @@ const Services = () => {
   
     useEffect(()=>{
         dispatch(getServices());
-    }, [])
+    }, [dispatch])
     return (
         <>
             <Navigation />
