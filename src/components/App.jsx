@@ -19,13 +19,13 @@ function App() {
   return (
       <div>
         <Routes>
-          <Route path = '/CarsClient/' element = { <Home /> } />
-          <Route path = '/CarsClient/services' element = { <Services /> } />
-          <Route path = '/CarsClient/auth' element = { <Auth /> } />
-          <Route path = '/CarsClient/login' element = { <Login /> } />
-          <Route path = '/CarsClient/register' element = { <Register /> } />
-          <Route path = '/CarsClient/user' element = { <User /> } />
-          <Route path = '/CarsClient/admin' element = { <Admin /> } />
+          <Route path = '/' element = { <Home /> } />
+          <Route path = '/services' element = { <Services /> } />
+          <Route path = '/auth' element = { <Auth /> } />
+          <Route path = '/login' element = { <Login /> } />
+          <Route path = '/register' element = { <Register /> } />
+          <Route path = '/user' element = { <User /> } />
+          <Route path = '/admin' element = { <Admin /> } />
         </Routes>
 
         <ToastContainer position='bottom-right'/>
