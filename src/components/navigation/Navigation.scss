@@ -1,9 +1,27 @@
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 10px;
     font-size: 32px;
-    a{
+    align-items: center;
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 6px;
+        height: 6px;
+    }
+    .menu {
+        display: flex;
+        gap: 8px;
+        list-style-type: none;
+    }
+    .sign-in {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    a {
         padding: 5px 20px;
         border: 2px solid transparent;
         border-radius: 10px;
@@ -12,6 +30,19 @@ nav {
         }
         &.active{
             background-color: #ccc;
+            border: 2px solid #fff;
+        }
+    }
+    .logout-btn {
+        padding: 5px 20px;
+        border: 2px solid transparent;
+        background-color: transparent;
+        border-radius: 10px;
+        font-size: 32px;
+        color: #fff;
+        transition: all .5s ease;
+        cursor: pointer;
+        &:hover{
             border: 2px solid #fff;
         }
     }
